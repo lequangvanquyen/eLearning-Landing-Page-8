@@ -16,6 +16,10 @@ section {
     padding: 130px 135px;
 }
 
+footer {
+    padding: 130px 135px 50px;
+}
+
 .rectangle {
     padding: 52px 135px 62px 135px;
     display: flex;
@@ -1003,4 +1007,149 @@ img {
     color: #fff;
     text-align: center;
     z-index: 1;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.about-careers-press-frame {
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.logo-container {
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 7px 0 0;
+    box-sizing: border-box;
+}
+
+.logo-icon1 {
+    align-self: stretch;
+    overflow: hidden;
+    height: 37px;
+    flex-shrink: 0;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.blog-frame,
+.company-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.company-parent {
+    width: 98px;
+    gap: 25px;
+}
+
+.company,
+.community,
+.teaching1 {
+    font-weight: 500;
+}
+
+.blog-frame {
+    gap: 16px;
+    font-size: 16px;
+    color: #535353;
+}
+
+.blog-parent,
+.frame-group-twitter-frame-grou,
+.teaching-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.teaching-frame {
+    width: 120px;
+    padding: 0 7px 0 0;
+    box-sizing: border-box;
+    gap: 26px;
+}
+
+.frame-group-twitter-frame-grou {
+    align-self: stretch;
+    gap: 18px;
+    font-size: 16px;
+    color: #535353;
+}
+
+.blog-parent {
+    align-self: stretch;
+    gap: 21px;
+}
+
+.teaching,
+.team-plans1,
+.social-media-groups {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.teaching {
+    gap: 26px;
+}
+
+.team-plans1 {
+    gap: 18px;
+    font-size: 16px;
+    color: #535353;
+}
+
+.social-media-groups {
+    gap: 18px;
+    font-size: 16px;
+    color: #535353;
+}
+
+.be-social {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2e2e2e;
+    z-index: 1;
+}
+
+.frame-footer-social-media-fram,
+.frame-footer-social-media-fram1,
+.frame-footer-social-media-fram2,
+.frame-footer-social-media-fram3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9px;
+}
+
+.copyright-2020-by {
+    position: relative;
+    color: #b0b5b4;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 400;
 }
